@@ -49,5 +49,6 @@
   "bracket-pair-colorizer-2.depreciation-notice": false,
   // Other settings
   "php.suggest.basic": false,
-  "npm.packageManager": "yarn"
+  "npm.packageManager": "yarn",
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }
