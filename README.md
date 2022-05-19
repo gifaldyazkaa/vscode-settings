@@ -30,6 +30,7 @@ mikestead.dotenv
 github.vscode-pull-request-github
 eamodio.gitlens
 pkief.material-icon-theme
+silvenon.mdx
 zhuangtongfa.material-theme
 bmewburn.vscode-intelephense-client
 esbenp.prettier-vscode
