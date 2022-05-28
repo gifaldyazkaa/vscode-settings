@@ -13,7 +13,7 @@
   "explorer.openEditors.visible": 0,
   "explorer.compactFolders": false,
   "files.autoGuessEncoding": true,
-  "terminal.integrated.defaultProfile.windows": "zsh",
+  "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.fontFamily": "'FiraCode Nerd Font', monospace",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "underline",
@@ -38,7 +38,7 @@
   // Extension settings
   "discord.detailsEditing": "📝 {file_name} | {file_size}",
   "discord.detailsDebugging": "🐛 {file_name} | {file_size}",
-  "discord.detailsIdling": "💤 | Idling.",
+  "discord.detailsIdling": "💤 | Idling",
   "discord.lowerDetailsEditing": "📂 {workspace}",
   "discord.lowerDetailsDebugging": "📂 {workspace}",
   "discord.lowerDetailsIdling": "{empty}",
@@ -47,8 +47,11 @@
   "discord.largeImageIdling": "💤 | Idle",
   "discord.removeRemoteRepository": true,
   "bracket-pair-colorizer-2.depreciation-notice": false,
+  "redhat.telemetry.enabled": false,
   // Other settings
   "php.suggest.basic": false,
   "npm.packageManager": "yarn",
+  "svelte.enable-ts-plugin": true,
+  "github.codespaces.showPerformanceExplorer": true,
   "javascript.updateImportsOnFileMove.enabled": "always"
 }
