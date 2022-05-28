@@ -36,6 +36,7 @@ bmewburn.vscode-intelephense-client
 esbenp.prettier-vscode
 svelte.svelte-vscode
 bradlc.vscode-tailwindcss
+octref.vetur
 wakatime.vscode-wakatime
 redhat.vscode-yaml
 ```
