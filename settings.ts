@@ -6,6 +6,7 @@
   "editor.cursorBlinking": "phase",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "'FiraCode Nerd Font', monospace",
+  "editor.bracketPairColorization.enabled": true,
   "editor.fontLigatures": true,
   "editor.smoothScrolling": true,
   "editor.cursorSmoothCaretAnimation": true,
@@ -23,6 +24,7 @@
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "window.dialogStyle": "custom",
+  "window.titleBarStyle": "custom",
   "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
   "window.titleSeparator": "︱",
   "workbench.tips.enabled": false,
@@ -33,7 +35,7 @@
   "git.fetchOnPull": true,
   // Language settings
   "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+      "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
   // Extension settings
   "discord.detailsEditing": "📝 {file_name} | {file_size}",
@@ -46,12 +48,17 @@
   "discord.largeImage": "{Lang} File",
   "discord.largeImageIdling": "💤 | Idle",
   "discord.removeRemoteRepository": true,
-  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "github.codespaces.showPerformanceExplorer": true,
   "redhat.telemetry.enabled": false,
+  // Prettier settings
+  "prettier.arrowParens": "avoid",
+  "prettier.printWidth": 120,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 4,
   // Other settings
   "php.suggest.basic": false,
   "npm.packageManager": "yarn",
+  "git.enableCommitSigning": true,
   "svelte.enable-ts-plugin": true,
-  "github.codespaces.showPerformanceExplorer": true,
   "javascript.updateImportsOnFileMove.enabled": "always"
 }
