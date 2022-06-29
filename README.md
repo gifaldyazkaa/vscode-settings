@@ -4,7 +4,7 @@ My own VSCode Local settings & configuration
 
 ## 🖼️ Preview
 
-[![Settings Preview](https://cdn.upload.systems/uploads/2bQj3LkW.png)](https://i.upload.systems/2bQj3LkW)
+[![Settings Preview](https://cdn.upload.systems/uploads/3LEPawTF.png)](https://cdn.upload.systems/uploads/3LEPawTF.png)
 
 ## ➡️ Installation
 
@@ -22,13 +22,12 @@ $ cp ./settings.ts ~/.config/Code/User/settings.json
 Install these extensions by copying identifier name to extension search tab
 
 ```
-coenraads.bracket-pair-colorizer-2
 bungcip.better-toml
 exodiusstudios.comment-anchors
 icrawl.discord-vscode
 mikestead.dotenv
+github.codespaces
 github.vscode-pull-request-github
-eamodio.gitlens
 pkief.material-icon-theme
 silvenon.mdx
 zhuangtongfa.material-theme
@@ -36,7 +35,7 @@ bmewburn.vscode-intelephense-client
 esbenp.prettier-vscode
 svelte.svelte-vscode
 bradlc.vscode-tailwindcss
-octref.vetur
+vue.volar
 wakatime.vscode-wakatime
 redhat.vscode-yaml
 ```
