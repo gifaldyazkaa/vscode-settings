@@ -1,0 +1,7 @@
+# Line ending
+* text=auto
+
+# Linguist
+*.json linguist-detectable=true
+*.jsonc linguist-detectable=true
+*.json linguist-language=JSON with Comments
