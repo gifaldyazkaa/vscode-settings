@@ -39,7 +39,3 @@ vue.volar
 wakatime.vscode-wakatime
 redhat.vscode-yaml
 ```
-
-## 📌 Notice
-
-Settings file having `*.ts` extension in order to display settings comment on GitHub. Rename it to `*.json` first if you want to copy it to default user directory or workspace settings.
