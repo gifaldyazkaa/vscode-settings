@@ -4,4 +4,4 @@
 # Linguist
 *.json linguist-detectable=true
 *.jsonc linguist-detectable=true
-*.json linguist-language=423
+*.json linguist-language=jsonc
