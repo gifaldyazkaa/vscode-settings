@@ -5,20 +5,19 @@
     "editor.inlineSuggest.enabled": true,
     "editor.cursorBlinking": "phase",
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.fontFamily": "'FiraCode Nerd Font', monospace",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', monospace",
     "editor.bracketPairColorization.enabled": true,
     "editor.fontLigatures": true,
     "editor.smoothScrolling": true,
-    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorSmoothCaretAnimation": "on",
     "explorer.confirmDragAndDrop": false,
-    "explorer.openEditors.visible": 0,
     "explorer.compactFolders": false,
     "files.autoGuessEncoding": true,
     "terminal.integrated.defaultProfile.linux": "zsh",
-    "terminal.integrated.fontFamily": "'FiraCode Nerd Font', monospace",
+    "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font', monospace",
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "underline",
-    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.colorTheme": "Mayukai Dark",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.list.smoothScrolling": true,
     "workbench.sideBar.location": "right",
@@ -33,23 +32,18 @@
     // Git settings
     "git.autofetch": true,
     "git.fetchOnPull": true,
-    // Language settings
-    "[php]": {
-        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-    },
     // Extension settings
     "discord.detailsEditing": "📝 {file_name} | {file_size}",
     "discord.detailsDebugging": "🐛 {file_name} | {file_size}",
     "discord.detailsIdling": "💤 | Idling",
-    "discord.lowerDetailsEditing": "📂 {workspace}",
-    "discord.lowerDetailsDebugging": "📂 {workspace}",
+    "discord.lowerDetailsEditing": "📂 {workspace}/{dir_name}",
+    "discord.lowerDetailsDebugging": "📂 {workspace}/{dir_name}",
     "discord.lowerDetailsIdling": "{empty}",
     "discord.lowerDetailsNoWorkspaceFound": "❌ No Workspace",
     "discord.largeImage": "{Lang} File",
     "discord.largeImageIdling": "💤 | Idle",
     "discord.removeRemoteRepository": true,
     "github.codespaces.showPerformanceExplorer": true,
-    "redhat.telemetry.enabled": false,
     // Prettier settings
     "prettier.arrowParens": "avoid",
     "prettier.printWidth": 120,
@@ -57,8 +51,9 @@
     "prettier.tabWidth": 4,
     // Other settings
     "php.suggest.basic": false,
-    "npm.packageManager": "yarn",
+    "npm.packageManager": "bun",
     "git.enableCommitSigning": true,
     "svelte.enable-ts-plugin": true,
-    "javascript.updateImportsOnFileMove.enabled": "always"
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.editor.enablePreview": false
 }
